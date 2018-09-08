@@ -1,0 +1,13 @@
+TÍnh Hiển thị thông tin của object, tính diện tích, chu vi của các loại Hình học
+như Hình Tròn, Hình Chữ nhật, Hình Vuông
+ Công thức:
+  + hình tròn
+       tính diện tích  : S = Pi X R2
+       tính chu vi : C=D X Pi hoặc C = (R X 2) X Pi
+      
+  + Hình Vuông
+        tính diện tích: S = A X A
+        tính chu vi :   P = A X 4
+  + Hình chữ nhật:
+        tính diện tích: P =  S = A X B
+        tính chu vi: (A + B) X 2
