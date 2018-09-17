@@ -1,4 +1,4 @@
-package chapter5;
+package chapter5_6;
 
 import java.util.concurrent.TimeUnit;
 
@@ -71,5 +71,12 @@ public class AccessingForms {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"user_general_info_attributes_gender_male\"]")));
         WebElement genderUserElement = driver.findElement(By.xpath("//*[@id=\"user_general_info_attributes_gender_male\"]"));
         genderUserElement.click();
+        
+        
+        // Chapter 6 - DropDown select
+        WebElement staffTypeUserElement = driver.findElement(By.xpath("//*[@id=\"user_staff_type_id\"]"));
+        Select staffTypeUserSelect= new Select(staffTypeUserElement) ;
+        //staffTypeUserSelect.selectByVisibleText("Part-time");
+        staffTypeUserSelect.selectByIndex(2);
 	}
 }
