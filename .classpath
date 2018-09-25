@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SeleniumDriver"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SeleniumWebDriver"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="/home/nguyen.van.tran.anhb/Documents/AutomationTestExample/lib/selenium-java-3.13.0/client-combined-3.13.0.jar"/>
 	<classpathentry kind="lib" path="/home/nguyen.van.tran.anhb/Documents/AutomationTestExample/lib/selenium-java-3.13.0/client-combined-3.13.0-sources.jar"/>
 	<classpathentry kind="lib" path="/home/nguyen.van.tran.anhb/Documents/AutomationTestExample/lib/selenium-java-3.13.0/libs/byte-buddy-1.8.3.jar"/>
@@ -15,13 +19,5 @@
 	<classpathentry kind="lib" path="/home/nguyen.van.tran.anhb/Documents/AutomationTestExample/lib/selenium-java-3.13.0/libs/httpcore-4.4.9.jar"/>
 	<classpathentry kind="lib" path="/home/nguyen.van.tran.anhb/Documents/AutomationTestExample/lib/selenium-java-3.13.0/libs/okhttp-3.10.0.jar"/>
 	<classpathentry kind="lib" path="/home/nguyen.van.tran.anhb/Documents/AutomationTestExample/lib/selenium-java-3.13.0/libs/okio-1.14.1.jar"/>
-
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/SeleniumWebDriver"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-8-oracle">
-		<attributes>
-			<attribute name="owner.project.facets" value="java"/>
-		</attributes>
-	</classpathentry>
-
 	<classpathentry kind="output" path="bin"/>
 </classpath>
