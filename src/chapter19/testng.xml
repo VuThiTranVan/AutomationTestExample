@@ -1,0 +1,23 @@
+<suite name="Suite">
+
+	<test name="Practice Grouping">
+
+		<groups>
+
+			<run>
+
+				<include name="Car" />
+
+			</run>
+
+		</groups>
+
+		<classes>
+
+			<class name="selenium.webdriver.practices.Grouping" />
+
+		</classes>
+
+	</test>
+
+</suite>
