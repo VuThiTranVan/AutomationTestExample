@@ -14,7 +14,7 @@
 
 		<classes>
 
-			<class name="selenium.webdriver.practices.Grouping" />
+			<class name="chapter19.Grouping" />
 
 		</classes>
 
