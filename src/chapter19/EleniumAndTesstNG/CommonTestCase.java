@@ -75,8 +75,9 @@ public abstract class CommonTestCase {
 
 		WebElement txtPass = driver.findElement(By.cssSelector("input[name='pass']"));
 		txtPass.sendKeys(pass);
-
 		WebElement buttonLogin = driver.findElement(By.cssSelector("button[name='login']"));
+
+		System.out.println("pas " + txtPass.getText());
 		buttonLogin.click();
 
 		try {
