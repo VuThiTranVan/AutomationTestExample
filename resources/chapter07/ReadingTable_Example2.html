@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+	font-size: 25px;
+}
+
+thead {
+	color: green;
+}
+
+tbody {
+	color: blue;
+}
+
+tfoot {
+	color: red;
+}
+
+tr, td {
+	padding: 10px 30px;
+}
+
+th, td {
+	border: 1px solid black;
+}
+</style>
+</head>
+
+<body>
+	<h2>Example 2 - inner table</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>Month</th>
+				<th>Test</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>January</td>
+				<td>
+					<table>
+						<tr>
+							<td>123</td>
+							<td>456</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td>February</td>
+				<td>987</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
+
+

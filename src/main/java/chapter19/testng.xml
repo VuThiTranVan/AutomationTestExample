@@ -1,0 +1,16 @@
+<suite name="Suite">
+	<test name="Practice Grouping">
+		<groups>
+			<run>
+				<include name="Car" />
+				<include name="Car.*" />
+				<exclude name="Scooter" />
+			</run>
+		</groups>
+		<classes>
+			<class name="main.java.chapter19.Grouping" />
+		</classes>
+
+	</test>
+
+</suite>
